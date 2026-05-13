@@ -25,8 +25,6 @@ public class Tweet {
     @Column(name = "created_at", updatable = false)
     private LocalDateTime createdAt;
 
-    // getters e setters
-
     public Long getTweetId() {
         return tweetId;
     }

@@ -47,6 +47,7 @@ public class User {
         return passwordEncoder.matches(loginRequest.password(), this.password);
     }
 
+
     public enum Values {
         ADMIN(1L),
         BASIC(2L);
